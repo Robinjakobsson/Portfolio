@@ -116,7 +116,7 @@ nav .right a span {
     margin-bottom: 100px;
 }
 
-.skills-section h2 {
+.skills-section  h2 {
     text-align: center;
     font-size: 35px;
 }
@@ -142,6 +142,33 @@ nav .right a span {
     border: 1.5px solid #d3d3d3;
     border-radius: 5px;
 }
+
+/*SECTION 2,5 Project section*/
+.project-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.project-section h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.project-section .grid {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.project-section .grid .project img {
+    height: 400px;
+    border-radius: 5px;
+}
+
+.project-section
+
 /* SECTION 3  About-me*/
 .aboutme-section {
     padding: 0 50px;
